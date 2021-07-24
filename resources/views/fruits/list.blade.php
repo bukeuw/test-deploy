@@ -6,6 +6,7 @@
 </head>
 <body>
     <div class="container">
+        <h3>Fruit list</h3>
         @foreach($fruits as $fruit)
             <p>{{ $fruit->name }}</p>
         @endforeach
